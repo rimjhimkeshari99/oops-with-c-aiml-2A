@@ -29,7 +29,7 @@ int ammount(){
 };
 int main(){
     bankaccount b;
- cout<<"initial balances"<< b.setbalance(10000)<<endl;
+ cout<<"initial balance"<< b.setbalance(10000)<<endl;
 cout<<"after deposit"<<b.deposit(5000)<<endl;
 cout<<"after withdraw"<<b.withdraw(2000)<<endl;
 cout<<"final balance"<<b.ammount()<<endl;
