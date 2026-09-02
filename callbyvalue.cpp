@@ -14,7 +14,7 @@ int main(){
 int x=5;
 data d;
 d.display(x);
-cout<<"value of x after call by value:"<<x<<endl;
+cout<<"value of x  call by value:"<<x<<endl;
 d.number(x);
 cout<<"value of x after call by reference:"<<x<<endl;
 return 0;
